@@ -26,9 +26,9 @@ function HomePage() {
         <>
             <section>
                 <Header />
-                <hr />
                 <div className="container">
-                    <h1 className="title">List of Movies</h1>
+                   <h1 className="title">List of Movies</h1>
+                   <hr />
                     <div className="row">
                         {
                             movies.length > 0 ? (
@@ -42,6 +42,7 @@ function HomePage() {
                             )
                         }
                     </div>
+                    <hr />
                 </div>
             </section>
         </>
